@@ -45,4 +45,5 @@ while(t--){
     else cout<<"0\n";
  }
 	return 0;
-}
+}.
+

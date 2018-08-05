@@ -13,7 +13,8 @@ int main(){
 	
 	for(int i=0; i<len-1; i++){
 		if(s[i]== s[i+1]){
-			tbl[i][i+1] = true;
+			tbl[i][i+1] = true; // for len=2 of palindromes
+			
 		}
 	}
 	int max_len = 2;
