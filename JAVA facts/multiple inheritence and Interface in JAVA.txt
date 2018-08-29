@@ -1,0 +1,18 @@
+We know that multiple inheritence is not supported in JAVA because:
+1. Suppose there are two different methods in class A and B but both have the same name.
+In that case, the child class will be confused wether to call the method from A or B.
+Hence the multiple inheritence is not supported in JAVA.
+
+We can get multiple inheritence using Interface:
+Interface is just like class but all the methods in the interface are only declared but not
+defined, i.e they all remain abstract.
+Since abstract methods must be defined explicitly in all the child classes, therefore
+there is no confusion about which abstract method must be called.
+
+You can implement several interfaces in the same class and all the methods(union of all)
+must be implemented in the child class. Or you can make the child class as abstract.
+Then this abstract class can be later extended by the child of this child class.
+
+Source:
+Telusco Learning.
+https://youtu.be/TMh91DIR-A0?list=PLsyeobzWxl7oZ-fxDYkOToURHhMuWD1BK

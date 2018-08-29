@@ -1,0 +1,17 @@
+There are basically two types of objects: Referenced and Anonymous.
+Referenced objects are those which we actually create and they take up space in the
+stack memory.
+Ex: Student student  =new Student()
+
+If unused, the referenced object is not eligible for garbage collection.
+
+However suppose if we want to use some object only once, it is better to use Anonymous
+object, since it does not take space in stack memory, and takes only heap memory.
+Ex: new Class.method();
+Here we did not create a referenced object. As soon as the usage is complete, it will be cleared
+via garbage collection process of JVM
+
+
+Source:
+Telusco Learning.
+https://youtu.be/AmRjm4Cksmo?list=PLsyeobzWxl7oZ-fxDYkOToURHhMuWD1BK

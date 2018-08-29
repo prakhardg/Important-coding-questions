@@ -1,0 +1,8 @@
+The 'this' keyword is used to point to the current instance.
+For example: Suppose we have a local variable named x and also the name of instance
+variable is also x. And we want our class method to assign the local value of x to the
+instance variable x. Then we simply use this.x = x ;
+
+Source
+Telusco Learning:
+https://youtu.be/P5DOzTL3O_w?list=PLsyeobzWxl7oZ-fxDYkOToURHhMuWD1BK

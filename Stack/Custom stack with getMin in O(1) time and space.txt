@@ -1,0 +1,22 @@
+method 1:
+Auxiliary stack where for every element we push the cur_min. On pop, when stack.top
+is same as aux_stack.top,  we also pop from aux_stack. Get_min will return the top of 
+aux stack.
+
+method2: (O(1)) space;
+
+int min_element;
+if (cur >= min_element): stack.push(cur)
+else:  stack.push(2*cur - min_element);
+
+for pop
+if (stack.top < min_element): 
+top_val = min_element;
+min_element  = 2*min_element - stack.top
+return top_val
+
+
+
+method 3:
+push pair in stack
+pair<min_val, cur_val>

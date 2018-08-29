@@ -1,0 +1,13 @@
+Abstraction means hiding the complex details from the user. It simplifies work at
+design level.
+Those methods which are declared but not defined are abstract methods.
+Class having abstract method are abstract classes. Cannot create object of abstract class.
+
+Suppose someone expects more methods to be available in a class, but has no idea how to implement
+them. So he should just create abstract methods and put them into the abstract class.
+Next time whenever someone wants to implement them, they must inherit the abstract class and 
+start implementing the methods and then use this to create a new object.
+
+Source:
+Telusco Learning.
+https://youtu.be/RcIsb9iFKH8?list=PLsyeobzWxl7oZ-fxDYkOToURHhMuWD1BK

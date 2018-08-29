@@ -1,0 +1,9 @@
+Final keyword can be used with variable, method or class.
+
+Variable: when variable is final, then it cannot be updated once it is assigned a value
+Method: When method is final, it cannot be overriden by object of child class.
+Class: When class is final, it cannot be inherited.
+
+Source: 
+Telusco Learning: 
+https://youtu.be/WZgcRSWVgpQ?list=PLsyeobzWxl7oZ-fxDYkOToURHhMuWD1BK

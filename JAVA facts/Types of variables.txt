@@ -1,0 +1,14 @@
+There are three types of variables in JAVA: Instance, local and class
+
+Instance: The variable inside a class as an attribute of every object. 
+	  Example: Age is a local variable if we have a student class.
+
+Local: The local variables are the params in the method which we pass values to.
+
+Class: The class variables are those which do not vary for every object and are associated
+	with the class. Example: Suppose we want to keep record of number of objects
+	of the class created. Mainly class variables are static variables.
+
+Source:
+Telusco Learning
+https://youtu.be/P5DOzTL3O_w?list=PLsyeobzWxl7oZ-fxDYkOToURHhMuWD1BK
