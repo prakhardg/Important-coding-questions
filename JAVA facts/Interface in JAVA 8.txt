@@ -1,0 +1,14 @@
+We know that all the functions in an interface should be abstract. However JAVA 8 supports
+method definition in interface, provided they have a default keyword. Works only for JAVA 8
+and above(whenever it comes)
+
+Information 2: Suppose there is a class C extends A implements B. Interface B has a default 
+defined method ( show() ) and class A has a method named ( show() ). Then class method has 
+higher priority than default interface methods
+
+Information 3: If your interface has any method which overrides the Objects class methods then
+you get an error.
+
+Source:
+Telusko learning
+https://youtu.be/4e_RsZWdiSc?list=PLsyeobzWxl7oZ-fxDYkOToURHhMuWD1BK

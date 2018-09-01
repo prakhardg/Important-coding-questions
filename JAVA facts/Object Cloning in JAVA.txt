@@ -1,0 +1,21 @@
+There are three ways in which we can copy an object in JAVA
+1. Shallow copy
+2. Deep Copy
+3. Cloning.
+
+Shallow copy does not create 2 different objects in the heap but only creates two references
+to the same objects.
+Ex. MyClass obj1 = obj;
+Any changes in obj will be reflected in the obj1 as well.
+
+In deep copy, we create 2 different objects in the heap memory. We manually create 2 different
+objects by copying values one by one.
+
+
+Third is cloning, which creates a new object and which is an exact clone of the object.
+Ex. Myclass.obj1 = obj.clone();
+Cloning is the hybrid version of shallow and deep copy.
+
+Source
+Telusko Learning
+https://youtu.be/b2uFL4BFDYg?list=PLsyeobzWxl7oZ-fxDYkOToURHhMuWD1BK

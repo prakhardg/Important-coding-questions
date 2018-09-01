@@ -1,0 +1,18 @@
+throws is a keyword in JAVA which suppresses the error. Try catch is better because with try
+and catch we can also handle the error. throw is used to forcibly throw an error.
+Example:
+
+try{
+k = i+j
+(if k> 10)
+throw new ArithmeticException();
+}
+
+catch(ArithmeticException e){
+System.out.print("Value should be greater than 10\n");
+}
+
+
+Source
+Telusko Learning
+https://youtu.be/0N-DhLQ5pxs?list=PLsyeobzWxl7oZ-fxDYkOToURHhMuWD1BK

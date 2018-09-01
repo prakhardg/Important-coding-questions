@@ -1,0 +1,4 @@
+There are 3 types of interface:
+1.Marker-> (blank interface) without any methods.
+2. Single Abstract methods. (aka functional interface).
+3. Normal (usual).

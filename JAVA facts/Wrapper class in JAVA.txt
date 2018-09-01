@@ -1,0 +1,18 @@
+Wrapper classes are the classes that cover some class. For example Integer class wraps the
+primitive data type int. A Wrapper class is a class whose object wraps or contains a primitive data types.
+When we create an object to a wrapper class, it contains a field and in this field, 
+we can store a primitive data types.
+
+Why need wrapper class?
+1. Converts the primitive data types into objects. Objects are needed when we wish to modify
+the args passed into the method.
+2. java.util package handles only objects.
+3. Data structures such as ArrayList and Vector handles storing only objects.
+4. Objects are needed for synchronisation in multithreading.
+
+Conversion of primitive data types into its corresponding wrapper class is called as 
+autoboxing. The reverse process is known as unboxing.
+
+Source:
+GeeksforGeeks.
+https://www.geeksforgeeks.org/wrapper-classes-java/
