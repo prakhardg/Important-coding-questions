@@ -1,0 +1,10 @@
+Synchronised keyword with methods are used to make sure that only one thread should be able to
+access that method at a time.
+This makes the methods "Thread Safe". For the same reason, StringBuffer is thread safe while
+StringBuilder is not.
+
+
+
+Source
+Telusko Learning
+https://youtu.be/A1tnVMpWHh8?list=PLsyeobzWxl7oZ-fxDYkOToURHhMuWD1BK

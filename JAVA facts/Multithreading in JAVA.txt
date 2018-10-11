@@ -1,0 +1,11 @@
+A thread is a unit of a process.
+Highly used in Async tasks in android.
+
+Ways to achieve multithreading in JAVA:
+1. Extend your class with class Thread.
+2. Since multiple inheritence is not supported in JAVA, we can use Runnable interface as well.
+
+Every JAVA program has atleast 1 thread by default i.e. the main thread.
+
+For multithreading, the default method which executes when we use thread.start() is the run() method.
+See here: https://ideone.com/XRWHxg

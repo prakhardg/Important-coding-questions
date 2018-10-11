@@ -1,0 +1,9 @@
+Since we cannot do multiple inheritence in JAVA therefore it is not always possible to extend
+the Thread class in your class. Therefore Runnable interface solves this problem.
+
+See here: https://ideone.com/imYQSN
+
+In the runnable interface, there is an abstract method called run which is called whenever the
+thread.start() method is called. Make sure the objects to be linked to the threads are passed
+as args of the constructor to link the objects with the thread. The concerned class implements
+Runnable interface.
