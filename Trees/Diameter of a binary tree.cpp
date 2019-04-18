@@ -1,20 +1,15 @@
-int left_h(Node * root){
+int util(Node * root, int &h){
     if(!root) return 0;
-    return 1+ max(left_h(root->left),  left_h(root->right));
-}
-
-int right_h(Node * root){
-    if(!root) return 0;
-    return 1+ max(right_h(root->left), right_h(root->right));
+    int lh = util(root->left, h);
+    int rh = util(root->right,h);
+    h = max(h, lh+rh+1);
+    return max(lh,rh)+1;
 }
 
 int diameter(Node* root)
 {
+    int h=-1;
    // Your code here
-   if(!root) return 0;
-   return 1+ left_h(root->left) + right_h(root->right);
+   int x = util(root, h);
+   return h;
 }
-
-//Function only
-
-
